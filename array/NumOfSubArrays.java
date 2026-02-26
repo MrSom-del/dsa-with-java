@@ -6,12 +6,12 @@ public class AvgGreterThreshold {
             sum+=arr[i];
         }
         int count = 0;
-        if(sum >= k*threshold){
+        if(sum/k >= threshold){
             count++;
         }
         for(int i = k; i<arr.length; i++){
             sum+=arr[i] - arr[i-k];
-            if(sum >= k*threshold) count++;
+            if(sum/k >= threshold) count++;
         }
         return count;
     }
