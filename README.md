@@ -27,7 +27,7 @@ The goal of this repository is to improve problem-solving skills and prepare for
 
 ## 📌 Progress
 - [x] Arrays
-- [ ] Strings
+- [X] Strings
 - [ ] Linked List
-- [ ] Stack
+- [X] Stack
 - [ ] Queue
